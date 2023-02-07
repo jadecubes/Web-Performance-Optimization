@@ -6,14 +6,14 @@ Time to first byte, or TTFB, is the amount of time a browser has to wait before 
 
 Here’s a snapshot of the ‘timings’ tab that gets shown when a response file on the network tab of devtools is clicked. It shows a website that has an excessive TTFB.
 
-[Time to first byte in inspector tool]
+[Time to first byte in inspector tool](./ttfb.jpg)
 
 In general, most issues with slow TTFB are caused by network issues, dynamic content creation, DNS lookup time, or traffic. We have control over two of these factors: dynamic content creation and DNS lookup time.
 
 ### Speed up DNS resolution
 The amount of time DNS resolution takes depends on how fast your DNS provider is. If your DNS server is slow, it may be time to switch to a faster DNS provider.
 
-[Speed of popular DNS services in February, 2020, taken from: http://www.solvedns.com/dns-comparison/2020/02]
+[Speed of popular DNS services in February, 2020, taken from: http://www.solvedns.com/dns-comparison/2020/02](./dns.jpg)
 
 Take a look at these DNS server speeds from multiple locations across the world. These are popular services that people may choose over their ISP to speed up DNS resolution. You can look at one of these to decide which service to pick.
 
