@@ -12,7 +12,7 @@ While we’re on the topic, it’s recommended to put links to CSS style sheets 
 
 However, unless the script is needed before the content for some reason, it’s best to keep it at the end of the body. Here’s how client-side rendering works:
 
-[CSR]
+[CSR](./csr)
 
 Also, note that in-lining styles like this:
 ```html
@@ -30,7 +30,7 @@ JavaScript bundles can be cached to speed things up in the future.
 ## Server-side rendering
 In server-side rendering, the whole web page is compiled on the server. The HTML is completely populated with the content, which is sent to the client. Next.js and Gatsby use this technique. Here’s how server-side rendering generally goes:
 
-[SSR]
+[SSR](./ssr)
 
 ### Pros
 Search engines will be able to crawl the site, resulting in better SEO because the pages will be populated with content.
