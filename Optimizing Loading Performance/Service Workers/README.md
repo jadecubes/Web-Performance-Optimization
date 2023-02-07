@@ -26,4 +26,4 @@ Service workers are based on JavaScript promises They also use JavaScript’s fe
 
 The following slides show where service workers are in the network architecture.
 
-[Server-client connection with a service worker]
+[Server-client connection with a service worker](./f.jpg)
