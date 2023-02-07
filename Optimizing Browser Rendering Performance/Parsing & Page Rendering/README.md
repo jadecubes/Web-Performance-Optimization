@@ -35,7 +35,7 @@ As the rendering engine receives the HTML file, it starts ‘parsing’ it into 
 ### DOM
 The DOM (Document Object Model) is the ‘object representation’ of the HTML document. The DOM is created before scripts or external factors make any changes to it.
 
-[Sample DOM tree]
+[Sample DOM tree](./dom.jpg)
 
 
 ```html
@@ -76,7 +76,7 @@ The drawing is typically done onto multiple surfaces, often called layers. So no
 ## Compositing
 Since parts of the page were drawn onto potentially multiple layers, they need to be drawn on the screen in the correct order so that the page renders correctly. This is especially important for elements that overlap, since a mistake could result in one element appearing over the top of another incorrectly. Also, note that compositing takes advantage of the GPU!
 
-[Key points in the pixels-to-screen pipeline]
+[Key points in the pixels-to-screen pipeline](./compositing.jpg)
 
 ## Jank
 Any and all of these steps may introduce jank (page scrolling or tapping on touchscreens that produce lag in the response time). So, learning how your code influences each of these will help immensely with optimizing performance.
