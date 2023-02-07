@@ -23,7 +23,7 @@ Let’s go back to our pizza delivery analogy to better understand CDNs. Without
 If any of the following is true for your website, you should definitely opt for a CDN:
 
 Large amounts of traffic
-A scattered, international user-base
-Expected growth
-Lots of media content, such as images and videos
+- A scattered, international user-base
+- Expected growth
+- Lots of media content, such as images and videos
 Otherwise, you won’t notice a difference in speed, but you will still get the benefit of DDoS protection.
