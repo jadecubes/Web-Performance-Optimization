@@ -2,7 +2,7 @@
 ## Problems with HTTP/1
 Have a look at the following diagram on how HTTP/1 generally works.
 
-[HTTP1]
+[HTTP1](./HTTP1)
 
 Looks pretty normal and routine right? Well, this malignant design of HTTP/1 actually causes huge performance blocks that can be easily avoided. The problem is that all the requests happen one after the other, and each request requires a separate TCP connection to be opened. These extra round trips and the extra overhead for opening and closing new TCP connections occurs for no real reason, and add up to overall latency. The browser sits mostly idle, except for when it makes requests, while it waits for the server to send everything it needs. This process adds up in the website’s loading time.
 
@@ -16,7 +16,7 @@ For instance, suppose a website requires an HTML file, a JavaScript file, a CSS 
 
 However, it’s obvious to the developers of the website that the website cannot be rendered without the JS and CSS files. So why make the browser explicitly request them? “Server push” solves this problem by getting the server to send all the necessary files in one round trip over one TCP connection without the client even firing off a request. This provides a significant performance boost.
 
-[HTTP2]
+[HTTP2](./HTTP2)
 
 ### Multiplexing
 Another benefit of HTTP/2 is that multiple files can be sent, or ‘multiplexed,’ in any order over one TCP connection from the server to the client. HTTP/1.1 had ‘pipelining,’ which meant that files could be sent over one connection, but they had to be sent in the correct order. So, if the server did not have file A ready to be sent, it could not just send files B and C first in HTTP/1.1 pipelining. This ordering would block loading, which does not happen with HTTP/2.
