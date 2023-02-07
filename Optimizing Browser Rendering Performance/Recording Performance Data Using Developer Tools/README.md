@@ -9,7 +9,7 @@ Runtime performance is how your page performs when it is running, as opposed to 
 ## Run the example app
 We’ll use the following code example to study performance. Click ‘run’ and open up the given ‘https://yourAppURL.educative.run’ link in a new incognito window, as shown below. Incognito Mode ensures that no other tabs or extensions interfere with the website’s performance.
 
-[Open the app in an incognito window]
+[Open the app in an incognito window](./open.jpg)
 
 - app.js
 ```javascript
@@ -337,12 +337,22 @@ You’ll see a bunch of Educative icons moving around the screen. You have the o
 - You’ll see a bunch of tabs on the top. Click on ‘performance’.
 The tab will currently be empty. You’ll need to record performance in order to see any data.
 
+[Open DevTools](./devtool.jpg)
+
 Note that you can click on the three dots on the top right and choose ‘dock side > undock into separate window.’ That’ll put the developer tools in a separate window, and that’s how we’ll show the rest of the screenshots in this lesson.
+
+[Recording](./recording.jpg)
 
 Next, add 10 a few times and click on optimize. Do this until you notice a difference between the optimized and unoptimized versions.
 
 ## Record
 Next, hit ‘record,’ and wait for a few seconds. 5-10 seconds is good enough for our purposes. Stop recording and let it load up the data.
 
+[Recording](./rec.jpg)
+
+[Loading](./loading.jpg)
+
 ## Data
 What you’ll end up seeing is something like this. Now, don’t freak out. We know it’s a lot to take in, but we’ll break these results down into digestible chunks and explain everything step-by-step in the next lesson.
+
+[Data](./data.jpg)
