@@ -53,7 +53,7 @@ Your HTML/JS/CSS files can be compressed in addition to being minified. Gzip is 
 
 There are a bunch of tools available online that can be used to check or ‘audit’ the state of compression on your website. Some even report the percentage of files compressed out of a total that could be. giftofspeed is one such tool. We tried educative.io on it, here is the result we got:
 
-[Result of auditing educative.io for compression]
+[Result of auditing educative.io for compression](./c.jpg)
 
 
 
