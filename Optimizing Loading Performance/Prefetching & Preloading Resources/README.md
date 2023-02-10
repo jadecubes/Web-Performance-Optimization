@@ -8,7 +8,7 @@ Consider the following example. The blue Educative icon is already preloaded on 
 
 Open up your network tab before hitting ‘run’. You’ll notice that a request for the icon is fired off even though it’s not actually used on this page.
 
-[Loading the HTML fires off a request for the asset. Note that this is from Firefox's inspector tool.]
+[Loading the HTML fires off a request for the asset. Note that this is from Firefox's inspector tool.](./p.jpg)
 
 ```html
 <html>
